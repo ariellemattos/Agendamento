@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.VizualizarActivity"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+       >
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:src="@drawable/info"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INFORMAÇÕES"
+            android:layout_gravity="center"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:paddingLeft="50dp"
+
+            />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turma"
+        android:textStyle="bold"
+        android:paddingTop="15dp"
+        android:textSize="15dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTurma"
+        android:textSize="13dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sala"
+        android:textStyle="bold"
+        android:paddingTop="15dp"
+        android:textSize="15dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtSala"
+        android:textSize="13dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horario"
+        android:textStyle="bold"
+        android:paddingTop="15dp"
+        android:textSize="15dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtHorario"
+        android:textSize="13dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apresetação"
+        android:textStyle="bold"
+        android:paddingTop="15dp"
+        android:textSize="15dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtApresentacao"
+        android:textSize="13dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Classe"
+        android:textStyle="bold"
+        android:paddingTop="15dp"
+        android:textSize="15dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtClasse"
+        android:textSize="13dp"
+        />
+
+
+</LinearLayout>

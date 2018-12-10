@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Agendamento</string>
+    <string name="action_settings">Settings</string>
+
+
+        <string-array name="spinner_classe">
+            <item>Selecione</item>
+            <item>Fund I</item>
+            <item>Fund II</item>
+            <item>Ensino médio</item>
+        </string-array>
+</resources>
